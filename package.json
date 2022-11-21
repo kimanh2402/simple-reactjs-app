@@ -4,9 +4,6 @@
   "private": true,
   "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
   "dependencies": {
-    "@mui/icons-material": "^5.10.9",
-    "@mui/lab": "^5.0.0-alpha.107",
-    "@mui/material": "^5.10.13",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
