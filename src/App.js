@@ -1,9 +1,10 @@
+import "./App.css"
 import React from 'react';
-
+import Start from "./Start"
 function App(){
   return(
     <div>
-      hi
+      <Start></Start>
     </div>
   )
 };
