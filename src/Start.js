@@ -30,7 +30,6 @@ export default function Start() {
 
   // JSX code to accept user input
   const renderInputName = (
-    <>
       <div style={{
         position: 'absolute',
         bottom: 0,
@@ -52,13 +51,10 @@ export default function Start() {
       </div>
       </div>
       
-    </>
   );
 
   // JSX code to display entered value
   const renderResetName = (
-    <>
-     <>
       <div style={{
         position: 'absolute',
         bottom: 0,
@@ -91,9 +87,7 @@ export default function Start() {
         </center>
       </center>
       </div>
-      
-    </>
-    </>
+
   );
   // Conditional rendering based on isReset State value
   return (
