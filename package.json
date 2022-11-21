@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "file-saver": "^2.0.5",
-    "gridjs": "^5.1.0",
-    "gridjs-react": "^5.1.0",
-    "image-downloader": "^4.3.0",
     "rc-progress": "^3.4.1",
     "rc-upload": "^4.3.4",
-    "react": "^17.0.0 || ^18.0.0",
+    "react": "^18.0.0",
     "react-component-export-image": "^1.0.6",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "webpack-dev-server --open",
-    "postinstall": "chmod -R +x node_modules/next/dist/bin/next-* && npm run build",
+   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
